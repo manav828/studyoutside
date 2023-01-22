@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+
+  font-family: BuenosAires;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+
+.main {
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.main :before {
+  content: '';
+  position: absolute;
+  background-color: #6c48f0;
+  height: 40vh;
+  /* width: 10%; */
+
+}
+
+.img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+
+}
+
+.img img {
+  margin: 10px;
+}
+
+.conteiner {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+
+  top: 100px;
+}
+
+.conteiner h1 {
+  color: #6c48f0;
+  padding-bottom: 5px;
+  padding-top: 50px;
+
+}
+
+.text .p1 {
+  font-size: 1.3rem;
+  position: relative;
+  top: 50px;
+}
+
+@media (max-width: 1250px) {
+
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1020px) {
+
+  .p1 {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .conteiner {
+    width: 90%;
+  }
+
+  .img img {
+    width: 360px;
+  }
+}
+
+
+
+
+
+
+.cont-2 {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 90px;
+  height: auto;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.sec-2 ul {
+  padding: 0;
+}
+
+.sec-2 ul li {
+  list-style: none;
+  padding: 10px;
+  font-size: 18px;
+  background-image: url(https://www.studies-overseas.com/images/services-start-icon.svg);
+  list-style: none;
+  background-repeat: no-repeat;
+  margin: 0 0 5px;
+  padding: 10px 0 10px 59px;
+  /* font-size: 16px; */
+  color: #0e1b2c;
+  text-align: left;
+
+}
+
+.sec-2 ul li i {
+  margin-right: 15px;
+  background-color: white;
+  color: yellow;
+}
+
+.p2 {
+  font-size: 18px;
+}
+
+@media (max-width: 1020px) {
+  .mobile {
+    width: 100%;
+  }
+
+  .p2 {
+    text-align: justify;
+  }
+
+  .cont-2 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .sec-2 ul li {
+    position: relative;
+    left: -20px;
+    text-align: left;
+    width: auto;
+  }
+
+  .col-12 {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width : 600px) {
+  .hidden-mobile1 {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+.imgs {
+  width: 80%;
+  margin: 150px auto;
+  height: auto;
+}
+
+.img4 img {
+  padding: 5px;
+  margin: 5px;
+  height: 250px;
+
+}
+
+.p3,
+.img4 img {
+  /* padding-top: 100px; */
+  font-size: 20px;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  align-items: center;
+}
+
+@media (max-width: 1020px) {
+  .img3 {
+    display: none;
+  }
+
+  .cont-3 {
+    width: 90%;
+    text-align: justify;
+    margin: 0;
+
+  }
+}
+
+
+
+
+
+.topuni {
+  background-color: #dbd9ff;
+  width: 100%;
+  height: auto;
+  /* overflow-x: hidden; */
+}
+
+.uni-per {
+  width: 80%;
+  margin: auto;
+  font-size: 42px;
+  color: #0e1b2c;
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-weight: var(--font-weight-600);
+  text-align: center;
+}
+
+.uni-per h2 {
+  padding-top: 30px;
+}
+
+.uni {
+  /* background-color: #dbd9ff; */
+  padding: 50px 0;
+}
+
+.uni ul li {
+  list-style: none;
+  background-color: #fff;
+  border-radius: 10px;
+  list-style: none;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #0e1b2c;
+  text-align: left;
+  padding: 15px 30px;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  height: 100px;
+  /* width: 200px; */
+}
+
+
+
+.mobile img {
+  margin: 10px;
+}
+
+
+.cource li {
+  border: 1px solid #d3d5db;
+  border-radius: 4px;
+  list-style: none;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #0e1b2c;
+  text-align: left;
+  padding: 15px 10px;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  width: 490px;
+  position: relative;
+
+  list-style: none;
+  padding: 10px;
+  font-size: 18px;
+  background-image: url(https://www.studies-overseas.com/images/services-start-icon.svg);
+  list-style: none;
+  background-repeat: no-repeat;
+  margin: 0 0 5px;
+  padding: 10px 0 10px 59px;
+  /* font-size: 16px; */
+  color: #0e1b2c;
+  text-align: left;
+  margin-bottom: 20px;
+  /* word-wrap: normal; */
+}
+
+@media (max-width: 770px) {
+  .uni-per {
+    width: 95%;
+  }
+
+  .uni-per li {
+    font-size: 14px;
+    height: 70px;
+    width: 90%;
+    margin: 0;
+    position: relative;
+    /* left: -50px; */
+  }
+
+  .uni ul li {
+    /* width: 300px; */
+    height: 70px;
+    font-size: 14px;
+    width: 100%;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+  .uni ul li {
+    /* width: 85vw; */
+    /* position: relative; */
+    /* left: -31px; */
+    /* width: 93vw; */
+    /* position: relative; */
+    left: -31px;
+  }
+
+}
+
+
+.sec-3 h3 {
+  margin-bottom: 30px;
+}
+
+.cou .row {
+  position: absolute;
+  top: 70px;
+}
+
+.cou {
+  height: 100vh;
+}
+
+.last {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width:500px) {
+  .flex img {
+    width: 360px;
+
+  }
+}
+
+
+.lep {
+  text-align: right;
+  /* margin-right: -20px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $font-primary: #3d3d3d; */
+
+.NeedGuidance_studentFooter__1w47J {
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+
+.NeedGuidance_studentFooter__1w47J .NeedGuidance_session__qkUaJ {
+  background: -webkit-linear-gradient(332.01deg, #6c48f0 19.61%, #6c48f0 85.6%);
+  background: linear-gradient(117.99deg, #6c48f0 19.61%, #6c48f0 85.6%);
+  box-shadow: 0 6px 50px rgb(0 0 0 / 10%);
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  color: #fff;
+  padding: 60px 50px;
+  text-align: left;
+  background-image: url(/_next/static/media/kc.5db4a39c.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #6c48f0;
+  border-radius: 10px;
+  background-position: 100%;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+}
+
+.NeedGuidance_studentFooter__1w47J .NeedGuidance_session__qkUaJ .NeedGuidance_anchor__oOUeO {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+}
+
+
+.NeedGuidance_studentFooter__1w47J .NeedGuidance_session__qkUaJ .NeedGuidance_btTranparent__1bWaU {
+  background: none;
+  box-shadow: none;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .NeedGuidance_studentFooter__1w47J .NeedGuidance_session__qkUaJ {
+    background-position: 100% 100%;
+    display: block;
+    text-align: center;
+    padding: 60px 20px 30px;
+  }
+
+  .NeedGuidance_studentFooter__1w47J {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .NeedGuidance_studentFooter__1w47J .NeedGuidance_session__qkUaJ p {
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 68px;
+  }
+}
+
+@media (max-width: 768px) {
+  .NeedGuidance_studentFooter__1w47J .NeedGuidance_session__qkUaJ .NeedGuidance_anchor__oOUeO {
+    display: block;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* carousel  */
+.navbar {
+  background-color: #6c48f0;
+}
+
+.slide {
+  /* height: 100vh;
+  width: 90vw; */
+}
+
+.carousel-item img {
+  height: 91vh;
+  opacity: 0.5;
+
+}
+
+
+.cardmain{
+  position: relative;
+  top: 100px;
+  background-color: #dbe8ff;
+  height: auto;
+  padding: 30px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap; 
+   justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.card{
+  margin: 20px;
+  width: 250px;
+  margin: auto;
+
+}
+.card img{
+  height: 250px;
+}
+.h2{
+  text-align: center;
+  margin: 40px;
+  font-weight: bold;
+}
+@media (max-width:700px){
+  .card{
+    margin-top: 20px;
+  }
+}
+
+
+
+
